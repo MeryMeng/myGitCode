@@ -6,11 +6,11 @@
 typedef enum{False,True}bool_t;
 /*类型的定义*/
 typedef struct{
-    char method[16];///////////////////////////////////***********
+    char method[16];
     char path[128];
     char protocol[16];
     bool_t is_static;
-    char para[128];////////*****************//////******************
+    char para[128];
 }request_t;//保存请求信息的结构体
 
 typedef struct{
